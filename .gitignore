@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# YOLO specific
+runs/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.mlmodel
+
+# Project specific
+data/train/images/*
+data/train/labels/*
+data/val/images/*
+data/val/labels/*
+!data/train/images/.gitkeep
+!data/train/labels/.gitkeep
+!data/val/images/.gitkeep
+!data/val/labels/.gitkeep
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Streamlit
+.streamlit/ 

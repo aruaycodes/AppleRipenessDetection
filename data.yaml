@@ -1,0 +1,14 @@
+path: data  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: 20%_ripe
+  1: 40%_ripe
+  2: 60%_ripe
+  3: 80%_ripe
+  4: 100%_ripe
+
+# Number of classes
+nc: 5 
