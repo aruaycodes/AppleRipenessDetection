@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -22,35 +23,26 @@ wheels/
 
 # Virtual Environment
 venv/
-env/
 ENV/
-.env
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-.DS_Store
-
-# YOLO specific
-runs/
-*.pt
-*.pth
-*.weights
-*.onnx
-*.engine
-*.mlmodel
 
 # Project specific
-data/train/images/*
-data/train/labels/*
-data/val/images/*
-data/val/labels/*
-!data/train/images/.gitkeep
-!data/train/labels/.gitkeep
-!data/val/images/.gitkeep
-!data/val/labels/.gitkeep
+runs/
+datasets/
+predictions/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# OS specific
+.DS_Store
+Thumbs.db
 
 # Logs and databases
 *.log

@@ -1,6 +1,6 @@
-path: data  # dataset root dir
-train: train/images  # train images (relative to 'path')
-val: val/images  # val images (relative to 'path')
+path: /Users/aruayberdikulova/Desktop/cv/AppleRipenessDetection/datasets/data  # dataset root dir
+train: train/images  # train images
+val: val/images  # val images
 
 # Classes
 names:

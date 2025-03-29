@@ -8,13 +8,14 @@ def train_model():
     # Train the model
     results = model.train(
         data='data.yaml',
-        epochs=100,
-        imgsz=640,
-        batch=16,
+        epochs=30,
+        imgsz=416,
+        batch=8,
         name='apple_ripeness_detection',
-        patience=20,
-        save=True,
-        device='0'  # use GPU if available, else 'cpu'
+        patience=5,
+        save=True,  # save checkpoints
+        save_period=1,  # save every epoch
+        device='cpu'  # use CPU for training
     )
 
 if __name__ == '__main__':
