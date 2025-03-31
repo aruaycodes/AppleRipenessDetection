@@ -15,7 +15,7 @@ st.set_page_config(
 # Title and description
 st.title("🍎 Apple Ripeness Detection")
 st.markdown("""
-This app uses AI to detect apple ripeness levels and provides recommendations for harvesting.
+This app uses YOLOv8 to detect apple ripeness levels and provides recommendations for harvesting.
 Upload an image of an apple to get started!
 """)
 
